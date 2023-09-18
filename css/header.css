@@ -1,1 +1,253 @@
+.masterhead {
+    height: 5.3125rem;
+}
+
+.searchBar{
+    margin-right: 0
+}
+
+.searchIcon {
+    margin-right: 0;
+    margin-top: 35px;
+    height: 36px;
+    margin-left: 1138px;
+}
+
+.logo {
+
+    display: block;
+    margin-left: 27px;
+    margin-top: -22px;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+  }
+
+.industryPartnersHeader{
+    left: -9999px;
+    z-index: -1;
+    margin-left: 14px;
+    padding-top: 5px;
+    padding-left: 17px;
+    background-color: #dee2e6;
+    height: 88px;
+    font-size: 51px;
+    font-family: system-ui;
+}
+.industryPartner{
+    letter-spacing: -.0625rem;
+    margin: 0;
+    padding: 0 1.875rem;
+    height: 5.3125rem;
+
+}
+
+
+  body {
+    background-color:#eee;
+  }
+  .section-title h2 {
+      text-align: center;
+      font-size: 18px;
+      font-weight: 600;
+      text-transform: uppercase;
+      padding-bottom: 6px;
+      color: #000;
+      letter-spacing: 0.3px;
+      padding: 0;
+      margin-left: -1125px;
+      font-family: system-ui;
+  }
+  .section-title::after {
+      content: "";
+      height: 3px;
+      background: #fbb900;
+      width: 80px;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin-left: 37px;
+  }
+  section.client {
+      padding:4em 0em;
+      background-color: #eee;
+    
+
+  
+  }
+  section.client .section-title {
+      margin-bottom: 2em;
+  }
+  .bx-controls {
+      position: relative;
+  }
+  .bx-wrapper .bx-pager {
+      text-align: center;
+      padding-top: 30px;
+  }
+  .bx-wrapper .bx-pager .bx-pager-item, .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+      display: inline-block;
+      *zoom: 1;
+      *display: inline;
+  }
+  .bx-wrapper .bx-pager.bx-default-pager a {
+      background: #666;
+      text-indent: -9999px;
+      display: block;
+      width: 10px;
+      height: 10px;
+      margin: 0 5px;
+      outline: 0;
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+  }
+
+  .carousel-client {
+    display: inline-flex;
+    margin-top: 20px
+  }
+
+  .container{
+    margin-top: -10px;
+  }
+
+
+    .site-footer {
+        padding-bottom: 3rem;
+        color: #fff;
+        background-color: #252525;
+        padding-top: 3rem;
+        margin-top: auto;
+    }
+
+    .copyright {
+        text-align: center;
+        font-size: .75rem;
+        font-weight: 600;
+        margin-top: 4rem
+    }
+  
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main-footer {
+  padding: 70px 0;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #252525;
+}
+
+.main-footer ul {
+  list-style: none;
+}
+
+.main-footer h1 {
+  font-size: 22px;
+  line-height: 117%;
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.main-footer h2 {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.main-footer ul li a {
+  color: #ffffffcc;
+  text-decoration:none;
+}
+
+footer {
+  background-color: #252525;
+  border-top: 1px solid #252525;
+  font-size: 17px;
+  padding: 15px 5px;
+  color: #ffffff;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.logoinfo p {
+  color: #6EB981;
+  font-size: 17px;
+  margin-top: 5px;
+}
+
+.contact-details {
+  margin-top: 20px;
+}
+
+.contact-details li {
+  list-style: none;
+  margin: 10px 0;
+}
+
+.contact-details li a {
+  text-decoration:none;
+  color: #f1f1f1;
+}
+
+.contact-details .fa {
+  color: #f1f1f1;
+  margin-right: 10px;
+}
+
+.sociallogos{
+  padding:20px 0;
+}
+
+.sociallogos .logobox a{
+  padding:0 10px;
+  text-decoration:none;
+  color:#ffffff;
+  font-size:22px;
+}
+
+.com ul li{
+  padding:5px 0;
+}
+
+@media only screen and (max-width: 749px) {
+  .main-footer {
+    padding:20px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+  }
+    .info{
+      padding:20px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-footer {
+    grid-template-columns: 1fr;
+  }
+  .sociallogos{
+    padding:20px 0;
+  }
+  .com{
+    padding:20px 0;
+  } 
+
+}
+  
 
